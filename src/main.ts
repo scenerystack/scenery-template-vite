@@ -4,7 +4,7 @@ import { Bounds2 } from 'scenerystack/dot';
 import { platform } from 'scenerystack/phet-core';
 import { Display, Node, Rectangle, Text } from 'scenerystack/scenery';
 
-// @ts-expect-error
+// @ts-ignore
 if ( process.env.NODE_ENV === 'development' ) {
   // Enable assertions if we are in development mode
   enableAssert();
