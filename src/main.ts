@@ -4,6 +4,7 @@ import { Bounds2 } from 'scenerystack/dot';
 import { platform } from 'scenerystack/phet-core';
 import { Display, Node, Rectangle, Text } from 'scenerystack/scenery';
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 if ( process.env.NODE_ENV === 'development' ) {
   // Enable assertions if we are in development mode
@@ -48,6 +49,7 @@ const resizeListener = () => {
 };
 window.addEventListener( 'resize', resizeListener );
 window.addEventListener( 'orientationchange', resizeListener );
+// eslint-disable-next-line @typescript-eslint/no-unused-expressions
 window.visualViewport && window.visualViewport.addEventListener( 'resize', resizeListener );
 resize();
 
